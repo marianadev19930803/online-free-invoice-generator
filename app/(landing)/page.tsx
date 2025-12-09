@@ -27,7 +27,7 @@ const Home = () => {
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-gray-300">
         
         {/* Top Ad Banner - Desktop (728x90) */}
-        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300 video-ad">
+        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300 video-ad h-[300px]">
         </div>
 
         {/* Top Ad Banner - Mobile (320x100) */}
