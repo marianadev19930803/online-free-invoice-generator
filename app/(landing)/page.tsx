@@ -24,10 +24,6 @@ import DemoPreview from "./components/demoPreview";
 
 const Home = () => {
   return (<>
-    <script
-  type="text/javascript"
-  src="//pl28225690.effectivegatecpm.com/3c/91/79/3c9179bcc776f30dc1a579d80aff60b0.js"
-></script>
     <div className="bg-[#f7f7f7] flex justify-center items-center overflow-x-hidden">
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-gray-300">
         <div className="justify-center items-center h-full flex flex-col my-10">
