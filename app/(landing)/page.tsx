@@ -28,14 +28,14 @@ const Home = () => {
         {/* Top Ad Banner - Desktop */}
         <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300">
           <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101629" className="w-full h-full"></div>
+            <div data-banner-id="728x90-top" className="w-full h-full"></div>
           </div>
         </div>
 
         {/* Top Ad Banner - Mobile */}
         <div className="md:hidden flex justify-center items-center py-4 border-b border-dashed border-gray-300 px-4">
           <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101629" className="w-full h-full"></div>
+            <div data-banner-id="320x100-top" className="w-full h-full"></div>
           </div>
         </div>
 
@@ -62,14 +62,14 @@ const Home = () => {
         {/* Left Sidebar Banner - Desktop */}
         <div className="hidden lg:block fixed left-4 top-1/2 transform -translate-y-1/2">
           <div className="w-[160px] h-[600px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101630" className="w-full h-full"></div>
+            <div data-banner-id="160x600-left" className="w-full h-full"></div>
           </div>
         </div>
 
         {/* Right Sidebar Banner - Desktop */}
         <div className="hidden lg:block fixed right-4 top-1/2 transform -translate-y-1/2">
           <div className="w-[160px] h-[600px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101631" className="w-full h-full"></div>
+            <div data-banner-id="160x600-right" className="w-full h-full"></div>
           </div>
         </div>
         
@@ -77,17 +77,17 @@ const Home = () => {
           <DemoPreview />
         </div>
 
-        {/* Middle Ad Banner 1 - Desktop */}
+        {/* Middle Ad Banner - Desktop */}
         <div className="hidden md:flex justify-center items-center py-6 border-t border-b border-dashed border-gray-300">
           <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101632" className="w-full h-full"></div>
+            <div data-banner-id="728x90-middle" className="w-full h-full"></div>
           </div>
         </div>
 
-        {/* Middle Ad Banner 1 - Mobile */}
+        {/* Middle Ad Banner - Mobile */}
         <div className="md:hidden flex justify-center items-center py-4 border-t border-b border-dashed border-gray-300 px-4">
           <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101632" className="w-full h-full"></div>
+            <div data-banner-id="320x100-middle" className="w-full h-full"></div>
           </div>
         </div>
 
@@ -182,14 +182,14 @@ const Home = () => {
         {/* Bottom Ad Banner - Desktop */}
         <div className="hidden md:flex justify-center items-center py-6 border-t border-dashed border-gray-300">
           <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101633" className="w-full h-full"></div>
+            <div data-banner-id="728x90-bottom" className="w-full h-full"></div>
           </div>
         </div>
 
         {/* Bottom Ad Banner - Mobile */}
         <div className="md:hidden flex justify-center items-center py-4 border-t border-dashed border-gray-300 px-4">
           <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101633" className="w-full h-full"></div>
+            <div data-banner-id="320x100-bottom" className="w-full h-full"></div>
           </div>
         </div>
         
