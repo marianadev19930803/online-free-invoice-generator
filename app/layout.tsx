@@ -71,6 +71,7 @@ export default function RootLayout({
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="400213"></script>
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f97316" />
         <meta name="msapplication-TileColor" content="#f97316" />
