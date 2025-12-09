@@ -24,11 +24,12 @@ import DemoPreview from "./components/demoPreview";
 
 const Home = () => {
   return (<>
-    <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="400639"></script>
+    <script
+  type="text/javascript"
+  src="//pl28225690.effectivegatecpm.com/3c/91/79/3c9179bcc776f30dc1a579d80aff60b0.js"
+></script>
     <div className="bg-[#f7f7f7] flex justify-center items-center overflow-x-hidden">
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-gray-300">
-        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300 video-ad h-[300px]">
-        </div>
         <div className="justify-center items-center h-full flex flex-col my-10">
           <div className="relative group">
             <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-black border-gray-300">
