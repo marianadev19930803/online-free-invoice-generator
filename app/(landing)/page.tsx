@@ -141,27 +141,6 @@ const Home = () => {
               client payments.
             </p>
           </div>
-          
-          <div className="border-r border-gray-300 border-b border-dashed flex justify-center flex-col items-center p-7">
-            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
-              <Hourglass />
-            </p>
-            <p className="font-bold text-xl">Save Time & Money</p>
-            <p className="text-neutral-500 mt-1 text-center">
-              Ditch the spreadsheets and expensive invoicing software.
-            </p>
-          </div>
-          
-          <div className="border-b border-dashed p-7 border-gray-300 flex justify-center flex-col items-center">
-            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
-              <CodeXml />
-            </p>
-            <p className="font-bold text-xl">Free & Open Source</p>
-            <p className="text-neutral-500 mt-1 text-center">
-              Absolutely no cost, with the freedom to customize and adapt to
-              your needs.
-            </p>
-          </div>
         </div>
         
         <div className="px-5 py-11 flex justify-center items-center border-b border-dashed border-gray-300">
