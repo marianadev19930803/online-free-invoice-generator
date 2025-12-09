@@ -26,10 +26,7 @@ const Home = () => {
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-gray-300">
         
         {/* Top Ad Banner - Desktop (728x90) */}
-        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300">
-          <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101629" className="w-full h-full"></div>
-          </div>
+        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300" id="video-id">
         </div>
 
         {/* Top Ad Banner - Mobile (320x100) */}
