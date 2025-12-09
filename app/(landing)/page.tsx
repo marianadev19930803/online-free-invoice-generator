@@ -24,8 +24,22 @@ const Home = () => {
   return (
     <div className="bg-[#f7f7f7] flex justify-center items-center overflow-x-hidden">
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-gray-300">
+        
+        {/* Top Ad Banner - Desktop */}
+        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300">
+          <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
+            <div data-banner-id="6101629" className="w-full h-full"></div>
+          </div>
+        </div>
+
+        {/* Top Ad Banner - Mobile */}
+        <div className="md:hidden flex justify-center items-center py-4 border-b border-dashed border-gray-300 px-4">
+          <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
+            <div data-banner-id="6101629" className="w-full h-full"></div>
+          </div>
+        </div>
+
         <div className="justify-center items-center h-full flex flex-col my-10">
-          
           <div className="relative group">
             <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-black border-gray-300">
               <span className="">Free </span>
@@ -44,16 +58,33 @@ const Home = () => {
             </Link>
           </div>
         </div>
+        
         <div className="mb-10">
-          <DemoPreview 
-          />
+          <DemoPreview />
         </div>
+
+        {/* Middle Ad Banner - Desktop */}
+        <div className="hidden md:flex justify-center items-center py-6 border-t border-b border-dashed border-gray-300">
+          <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
+            <div data-banner-id="6101629" className="w-full h-full"></div>
+          </div>
+        </div>
+
+        {/* Middle Ad Banner - Mobile */}
+        <div className="md:hidden flex justify-center items-center py-4 border-t border-b border-dashed border-gray-300 px-4">
+          <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
+            <div data-banner-id="6101629" className="w-full h-full"></div>
+          </div>
+        </div>
+
         <p className="font-medium text-xl md:text-3xl border-t border-gray-300 border-b border-dashed md:py-6 py-3 px-7 text-neutral-700 text-center">
           Here&apos;s why you&apos;ll love our Free Invoice Generator
         </p>
+        
         <div className="grid sm:grid-cols-2 relative">
           <Plus className="text-orange-500 group-hover:text-orange-500 w-7 h-7 absolute top-0 -translate-x-1/2 -translate-y-1/2 left-0" />
           <Plus className="text-orange-500 group-hover:text-orange-500 w-7 h-7 absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2" />
+          
           <div className="border-r border-b border-dashed p-7 border-gray-300 flex justify-center flex-col items-center">
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
               <Rocket />
@@ -64,6 +95,7 @@ const Home = () => {
               seconds
             </p>
           </div>
+          
           <div className="border-b border-dashed flex justify-center flex-col items-center p-7 border-gray-300">
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
               <Infinity />
@@ -73,6 +105,7 @@ const Home = () => {
               Create as many invoices as you need, forever, at no cost.
             </p>
           </div>
+          
           <div className="border-r border-b border-dashed flex justify-center flex-col items-center p-7 border-gray-300">
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
               <NotebookText />
@@ -83,6 +116,7 @@ const Home = () => {
               templates.
             </p>
           </div>
+          
           <div className="border-b border-gray-300 border-dashed flex justify-center flex-col items-center p-7">
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
               <Receipt />
@@ -93,6 +127,7 @@ const Home = () => {
               client payments.
             </p>
           </div>
+          
           <div className="border-r border-gray-300 border-b border-dashed flex justify-center flex-col items-center p-7">
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
               <Hourglass />
@@ -102,6 +137,7 @@ const Home = () => {
               Ditch the spreadsheets and expensive invoicing software.
             </p>
           </div>
+          
           <div className="border-b border-dashed p-7 border-gray-300 flex justify-center flex-col items-center">
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-gray-300 bg-gradient-to-br from-orange-100 to-pink-100">
               <CodeXml />
@@ -113,6 +149,7 @@ const Home = () => {
             </p>
           </div>
         </div>
+        
         <div className="px-5 py-11 flex justify-center items-center border-b border-dashed border-gray-300">
           <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4  bg-gradient-to-br from-orange-100 to-pink-100">
             <p className="md:max-w-2xl text-center font-semibold text-xl text-black p-4 md:text-3xl text-balance">
@@ -127,6 +164,21 @@ const Home = () => {
             </Link>
           </div>
         </div>
+        
+        {/* Bottom Ad Banner - Desktop */}
+        <div className="hidden md:flex justify-center items-center py-6 border-t border-dashed border-gray-300">
+          <div className="w-full max-w-[728px] h-[90px] bg-gray-100 flex items-center justify-center rounded-lg">
+            <div data-banner-id="6101629" className="w-full h-full"></div>
+          </div>
+        </div>
+
+        {/* Bottom Ad Banner - Mobile */}
+        <div className="md:hidden flex justify-center items-center py-4 border-t border-dashed border-gray-300 px-4">
+          <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
+            <div data-banner-id="6101629" className="w-full h-full"></div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
