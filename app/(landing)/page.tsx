@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { Script } from 'next/script';
+import Script from "next/script"
 
 import {
   BarChart4,
