@@ -35,7 +35,7 @@ const Home = () => {
         {/* Top Ad Banner - Mobile (320x100) */}
         <div className="md:hidden flex justify-center items-center py-4 border-b border-dashed border-gray-300 px-4">
           <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101629" className="w-full h-full"></div>
+            <div data-banner-id="6101638" className="w-full h-full"></div>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ const Home = () => {
         {/* Middle Ad Banner 1 - Mobile (320x100) */}
         <div className="md:hidden flex justify-center items-center py-4 border-t border-b border-dashed border-gray-300 px-4">
           <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101632" className="w-full h-full"></div>
+            <div data-banner-id="6101639" className="w-full h-full"></div>
           </div>
         </div>
 
@@ -189,7 +189,7 @@ const Home = () => {
         {/* Bottom Ad Banner - Mobile (320x100) */}
         <div className="md:hidden flex justify-center items-center py-4 border-t border-dashed border-gray-300 px-4">
           <div className="w-full max-w-[320px] h-[100px] bg-gray-100 flex items-center justify-center rounded-lg">
-            <div data-banner-id="6101633" className="w-full h-full"></div>
+            <div data-banner-id="6101640" className="w-full h-full"></div>
           </div>
         </div>
         
