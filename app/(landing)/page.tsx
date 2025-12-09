@@ -27,7 +27,7 @@ const Home = () => {
     <script async src="https://js.onclckmn.com/static/onclicka.js" data-admpid="400619"></script>
     <div className="bg-[#f7f7f7] flex justify-center items-center overflow-x-hidden">
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-gray-300">
-        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300 .video-ad h-[300px]">
+        <div className="hidden md:flex justify-center items-center py-6 border-b border-dashed border-gray-300 video-ad h-[300px]">
         </div>
         <div className="justify-center items-center h-full flex flex-col my-10">
           <div className="relative group">
