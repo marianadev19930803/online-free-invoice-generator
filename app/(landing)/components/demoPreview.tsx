@@ -14,7 +14,7 @@ const DemoPreview = () => (
 
 const defaultValue = {
   companyDetails: {
-    companyName: "Prolab Inc",
+    companyName: "cRose Inc",
     companyAddress: "1600 Amphitheatre Parkway",
     companyCity: "Mountain View",
     companyState: "CA",
@@ -22,7 +22,7 @@ const defaultValue = {
     companyLogo: "/android-chrome-192x192.png",
     companyTaxId: "",
     companyZip: "94043",
-    email: "support@prolab.sh",
+    email: "support@cRose.sh",
   },
   yourDetails: {
     yourName: "Pranav Patel",
@@ -42,7 +42,7 @@ const defaultValue = {
     routingCode: "123456",
     swiftCode: "AXISINBB1234",
     ifscCode: "UTIB0000000",
-    currency: "INR",
+    currency: "USD",
   },
   invoiceTerms: {
     invoiceNumber: "Invoice #25",
@@ -65,7 +65,7 @@ const defaultValue = {
         qty: 0,
       },
     ],
-    currency: "INR",
+    currency: "USD",
   },
 };
 export default DemoPreview;
