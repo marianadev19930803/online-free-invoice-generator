@@ -46,44 +46,6 @@ const Home = () => {
         </div>
         <div className="mb-10">
           <DemoPreview 
-            companyName="Smith Digital Solutions LLC"
-            companyAddress="123 Tech Avenue, Suite 450"
-            companyCity="New York, NY 10001"
-            companyPhone="(212) 555-0123"
-            companyEmail="hello@smithdigital.com"
-            clientName="Johnson & Associates"
-            clientAddress="456 Business Blvd"
-            clientCity="Chicago, IL 60607"
-            invoiceNumber="INV-2024-001"
-            invoiceDate="March 15, 2024"
-            dueDate="April 15, 2024"
-            items={[
-              {
-                description: "Website Design & Development",
-                quantity: "1",
-                unitPrice: "$2,500.00",
-                total: "$2,500.00"
-              },
-              {
-                description: "Monthly Maintenance & Support",
-                quantity: "3",
-                unitPrice: "$300.00",
-                total: "$900.00"
-              },
-              {
-                description: "SEO Optimization Package",
-                quantity: "1",
-                unitPrice: "$800.00",
-                total: "$800.00"
-              }
-            ]}
-            subtotal="$4,200.00"
-            taxRate="8.875%"
-            taxAmount="$372.75"
-            total="$4,572.75"
-            currency="USD"
-            paymentInstructions="Please make payment via ACH transfer or check payable to Smith Digital Solutions LLC"
-            terms="Net 30 days. Late payments subject to 1.5% monthly interest."
           />
         </div>
         <p className="font-medium text-xl md:text-3xl border-t border-gray-300 border-b border-dashed md:py-6 py-3 px-7 text-neutral-700 text-center">
